@@ -37,9 +37,8 @@ with open('home_status_method_hierarchical.json', 'r') as f:
 metadata_json = home_status_method['40']
 instructions = json.load(open('inputs_home40_one.json', 'r'))[:100] 
 
-# ---------------------------------------------------------
-# [실행 Step 1] Core Context 먼저 뽑기
-# ---------------------------------------------------------
+# -------------user story 추출 -------------------
+
 response1 = client.chat.completions.create(
     model="gpt-4o",
     messages=[
@@ -54,6 +53,8 @@ print('-------------------------------------------------------------------------
 
 num_samples = 10
 batch = instructions[:num_samples] 
+
+# ------------- perceptions 추출 -----------------
 
 response2 = client.chat.completions.create(
     model="gpt-4o",
