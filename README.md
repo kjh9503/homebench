@@ -1,4 +1,4 @@
-# HomeBench (from [HomeBench](https://github.com/BITHLP/HomeBench))
+# HomeBench w/ Context (from [HomeBench](https://github.com/BITHLP/HomeBench))
 
 ### 📂 Project Files
 
