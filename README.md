@@ -1,4 +1,4 @@
-# [HomeBench](https://github.com/BITHLP/HomeBench)
+# HomeBench (from [HomeBench](https://github.com/BITHLP/HomeBench))
 
 ### 📂 Project Files
 
